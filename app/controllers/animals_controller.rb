@@ -14,7 +14,9 @@ class AnimalsController < ApplicationController
 
   # GET /animals/new
   def new
+    @zonas = Zona.all
     @animal = Animal.new
+
   end
 
   # GET /animals/1/edit
@@ -25,12 +27,13 @@ class AnimalsController < ApplicationController
   # POST /animals.json
   def create
     @animal = Animal.new(animal_params)
-
+    @animal.user = current_user
     respond_to do |format|
       if @animal.save
         format.html { redirect_to @animal, notice: 'Animal was successfully created.' }
         format.json { render :show, status: :created, location: @animal }
       else
+        @zonas = Zona.all
         format.html { render :new }
         format.json { render json: @animal.errors, status: :unprocessable_entity }
       end
@@ -69,6 +72,6 @@ class AnimalsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def animal_params
-      params.require(:animal).permit(:nom, :foto, :raza, :zona_id, :any_naixement, :user_id)
+      params.require(:animal).permit(:nom, :foto, :raza, :zona_id, :any_naixement)
     end
 end

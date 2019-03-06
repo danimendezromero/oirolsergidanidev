@@ -17,31 +17,55 @@
   </div>
 
   <div class="field">
-    <%= form.label :foto %>
-    <%= form.text_field :foto, id: :animal_foto %>
-  </div>
-
-  <div class="field">
     <%= form.label :raza %>
     <%= form.text_field :raza, id: :animal_raza %>
   </div>
+  <% if form.object.persisted? %>
+  <% else %>
+    <div class="field">
+      <%= form.label :zona_id %>
+      <%= form.select :zona_id, @zonas.collect { |zona| [zona.nom, zona.id]} %>
+    </div>
+  <% end %>
 
-  <div class="field">
-    <%= form.label :zona_id %>
-    <%= form.text_field :zona_id, id: :animal_zona_id %>
-  </div>
 
   <div class="field">
     <%= form.label :any_naixement %>
     <%= form.date_select :any_naixement, id: :animal_any_naixement %>
   </div>
 
+  <% if form.object.persisted? %>
+    <% if animal.foto.url.present? %>
+
+    <%= image_tag( animal.foto.url, width: 100, height: 100) %>
+
+    <div class="field">
+
+      <%= form.label :remove_foto, style: "display: inline" %>
+
+      <%= form.check_box :remove_foto %>
+
+    </div>
+
+  <% end %>
+  <%= form.file_field :foto %>
+
+  <%= form.hidden_field :foto_cache %>
+  <% else %>
   <div class="field">
-    <%= form.label :user_id %>
-    <%= form.text_field :user_id, id: :animal_user_id %>
+    <%= form.label :foto do %>
+
+  <%= form.file_field :foto %>
+
+  <%= form.hidden_field :foto_cache %>
+
+  <% end %>
   </div>
+
+  <% end %>
 
   <div class="actions">
     <%= form.submit %>
   </div>
+
 <% end %>

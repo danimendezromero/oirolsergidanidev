@@ -2,7 +2,7 @@
 
 <h1>Animals</h1>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Nom</th>
@@ -19,11 +19,11 @@
     <% @animals.each do |animal| %>
       <tr>
         <td><%= animal.nom %></td>
-        <td><%= animal.foto %></td>
+        <td><%= image_tag(animal.foto.url, width: 30, height: 30) %></td>
         <td><%= animal.raza %></td>
-        <td><%= animal.zona %></td>
+        <td><%= animal.zona.nom %></td>
         <td><%= animal.any_naixement %></td>
-        <td><%= animal.user %></td>
+        <td><%= animal.user.email %></td>
         <td><%= link_to 'Show', animal %></td>
         <td><%= link_to 'Edit', edit_animal_path(animal) %></td>
         <td><%= link_to 'Destroy', animal, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -34,4 +34,4 @@
 
 <br>
 
-<%= link_to 'New Animal', new_animal_path %>
+<%= link_to 'New Animal', new_animal_path, class: 'btn btn-primary' %>
