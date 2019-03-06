@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nom: MyString
+  foto: MyString
+  raza: MyString
+  zona: one
+  any_naixement: 2019-03-06
+  user: one
+
+two:
+  nom: MyString
+  foto: MyString
+  raza: MyString
+  zona: two
+  any_naixement: 2019-03-06
+  user: two
