@@ -242,3 +242,1861 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 268ms (Views: 266.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-03-06 18:16:04 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb (10.0ms)
+Completed 200 OK in 193ms (Views: 104.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-03-06 18:16:05 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2019-03-06 18:16:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 18:17:04 +0100
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 18:17:04 +0100
+Processing by Devise::SessionsController#new as HTML
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (153.9ms)
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (216.0ms)
+Completed 200 OK in 2197ms (Views: 2166.0ms | ActiveRecord: 2.0ms)
+
+
+Completed 200 OK in 24459ms (Views: 24401.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-03-06 18:18:00 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (82.9ms)
+Completed 200 OK in 397ms (Views: 396.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-03-06 18:18:19 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T4zEuhC0wkNgfZ8E1Dba62p+7//U/kMui7LAhd82m6+Y0K2OMSJ8ZjWmJl9x8PhC7AHIwCEc6MWbQSx4sKFvbw==", "user"=>{"email"=>"imverysmart@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "imverysmart@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "imverysmart@gmail.com"], ["encrypted_password", "$2a$11$e5PZ/QQG341wHOqlO1dxg.ErbJCGkAGDCRzBnjOGb2WCrbCc68Q0O"], ["created_at", "2019-03-06 17:18:19.767486"], ["updated_at", "2019-03-06 17:18:19.767486"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 507ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 18:18:20 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 162ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 18:18:27 +0100
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 18:18:27 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 156ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 18:18:37 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  Rendered animals/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 277ms (Views: 213.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 18:18:39 +0100
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/new.html.erb within layouts/application
+  Rendered animals/_form.html.erb (18.0ms)
+  Rendered animals/new.html.erb within layouts/application (51.0ms)
+Completed 200 OK in 308ms (Views: 263.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zonas" for 127.0.0.1 at 2019-03-06 18:18:50 +0100
+Processing by ZonasController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/index.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered zonas/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 259ms (Views: 212.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/zonas/new" for 127.0.0.1 at 2019-03-06 18:18:52 +0100
+Processing by ZonasController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/new.html.erb within layouts/application
+  Rendered zonas/_form.html.erb (9.0ms)
+  Rendered zonas/new.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 291ms (Views: 250.6ms | ActiveRecord: 1.2ms)
+
+
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_animals_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_animals_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_animals_on_zona_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_animals_on_zona_id' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 18:30:33 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/new.html.erb within layouts/application
+  Rendered animals/_form.html.erb (79.0ms)
+  Rendered animals/new.html.erb within layouts/application (118.9ms)
+Completed 200 OK in 782ms (Views: 665.0ms | ActiveRecord: 2.0ms)
+
+
+  [1m[36mUser Load (10.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 18:31:03 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  Rendered animals/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 259ms (Views: 226.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/zonas" for 127.0.0.1 at 2019-03-06 18:31:09 +0100
+Processing by ZonasController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/index.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered zonas/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 290ms (Views: 243.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/zonas/new" for 127.0.0.1 at 2019-03-06 18:31:11 +0100
+Processing by ZonasController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/new.html.erb within layouts/application
+  Rendered zonas/_form.html.erb (11.0ms)
+  Rendered zonas/new.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 316ms (Views: 262.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/zonas" for 127.0.0.1 at 2019-03-06 18:31:22 +0100
+Processing by ZonasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/g9/Z+EyKxce8Bw+WTq83X1kynd6RLnDVCiWdvVe8ZqX6vCzLcZhj2kI2YLIQ9DXV5QiHK8xgGB/hHYo1AUDQw==", "zona"=>{"nom"=>"qweqewqw", "clima"=>"qweqew", "temperatura"=>"12", "humitat"=>"12"}, "commit"=>"Create Zona"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "zonas" ("nom", "clima", "temperatura", "humitat", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["nom", "qweqewqw"], ["clima", "qweqew"], ["temperatura", 12], ["humitat", 12], ["created_at", "2019-03-06 17:31:22.913702"], ["updated_at", "2019-03-06 17:31:22.913702"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/zonas/1
+Completed 302 Found in 17ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/zonas/1" for 127.0.0.1 at 2019-03-06 18:31:22 +0100
+Processing by ZonasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/show.html.erb within layouts/application
+  Rendered zonas/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 270ms (Views: 220.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/zonas" for 127.0.0.1 at 2019-03-06 18:31:24 +0100
+Processing by ZonasController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/index.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered zonas/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 263ms (Views: 215.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 18:31:30 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  Rendered animals/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 257ms (Views: 220.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 18:31:32 +0100
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/new.html.erb within layouts/application
+  Rendered animals/_form.html.erb (4.0ms)
+  Rendered animals/new.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 292ms (Views: 255.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 18:31:44 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"opIrga48geIbdJAZcE8qFmAvI+gU1Xod0XDpZvOY7Kx3f24IIA/BbGZpB4tAGI/7SKZzrmf8tzeS4rYpAV/bVw==", "animal"=>{"nom"=>"qweqew", "raza"=>"qweqew", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "user_id"=>"1", "foto"=>#<ActionDispatch::Http::UploadedFile:0x93cf318 @tempfile=#<Tempfile:C:/Users/Usuari1/AppData/Local/Temp/RackMultipart20190306-8636-19aspw3.jpg>, @original_filename="descarga.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"animal[foto]\"; filename=\"descarga.jpg\"\r\nContent-Type: image/jpeg\r\n">, "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "animals" ("nom", "foto", "raza", "zona_id", "any_naixement", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "qweqew"], ["foto", "descarga.jpg"], ["raza", "qweqew"], ["zona_id", 1], ["any_naixement", "2019-03-06"], ["user_id", 1], ["created_at", "2019-03-06 17:31:44.926677"], ["updated_at", "2019-03-06 17:31:44.926677"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/animals/1
+Completed 302 Found in 133ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:31:44 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 267ms (Views: 230.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:32:42 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 256ms (Views: 218.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:33:30 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  Rendered animals/show.html.erb within layouts/application (42.0ms)
+Completed 500 Internal Server Error in 245ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `nom' for "qweqew":String):
+    10: 
+    11: <p>
+    12:   <strong>Raza:</strong>
+    13:   <%= @animal.raza.nom %>
+    14: </p>
+    15: 
+    16: <p>
+  
+app/views/animals/show.html.erb:13:in `_app_views_animals_show_html_erb___416537309_92583120'
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:33:47 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 273ms (Views: 235.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:35:45 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 255ms (Views: 217.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:36:00 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 276ms (Views: 236.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:36:46 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 254ms (Views: 216.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:37:03 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 262ms (Views: 226.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:37:14 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 264ms (Views: 225.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:37:24 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 267ms (Views: 230.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:37:35 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 260ms (Views: 223.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:37:45 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 261ms (Views: 222.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:38:28 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 261ms (Views: 224.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:38:39 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 261ms (Views: 224.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:38:50 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 263ms (Views: 218.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:39:15 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 259ms (Views: 222.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:42:13 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 455ms (Views: 417.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:42:30 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 376ms (Views: 339.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 18:57:42 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (22.0ms)
+Completed 500 Internal Server Error in 632ms (ActiveRecord: 4.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `authenticate_user' for #<#<Class:0xb68f488>:0xb68e318>):
+    25:       <li class="nav-item">
+    26:         <a class="nav-link" href="#">Link</a>
+    27:       </li>
+    28:       <% if authenticate_user %>
+    29:         <li>
+    30:           <%= link_to "Login", new_user_session_path  %>
+    31:         </li>
+  
+app/views/layouts/application.html.erb:28:in `_app_views_layouts_application_html_erb__819489213_95722740'
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 19:00:03 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 437ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `authenticate_user!' for #<#<Class:0xb68f488>:0x9d7d288>):
+    25:       <li class="nav-item">
+    26:         <a class="nav-link" href="#">Link</a>
+    27:       </li>
+    28:       <% if authenticate_user! %>
+    29:         <li>
+    30:           <%= link_to "Login", new_user_session_path  %>
+    31:         </li>
+  
+app/views/layouts/application.html.erb:28:in `_app_views_layouts_application_html_erb__819489213_87143292'
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 19:02:17 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 248ms (Views: 211.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/animals/1" for 127.0.0.1 at 2019-03-06 19:03:01 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 270ms (Views: 233.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:03:19 +0100
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:03:19 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 263ms (Views: 223.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:03:47 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 655ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_registration' for #<#<Class:0xb68f488>:0x7114878>
+Did you mean?  new_user_registration_url
+               new_user_registration_path):
+    27:       </li>
+    28:       <% if user_signed_in? %>
+    29:         <li>
+    30:           <%= link_to "Register", new_user_registration , :class => "nav-link" %>
+    31:         </li>
+    32:         <% elsif %>
+    33:         <li>
+  
+app/views/layouts/application.html.erb:30:in `_app_views_layouts_application_html_erb__819489213_59064384'
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:04:17 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 277ms (Views: 234.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:05:11 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 271ms (Views: 220.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:05:28 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 263ms (Views: 226.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:05:31 +0100
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:05:31 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 240ms (Views: 202.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:05:33 +0100
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:05:33 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (15.6ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 237ms (Views: 192.7ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:05:34 +0100
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:05:34 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 238ms (Views: 208.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:06:02 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 264ms (Views: 228.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:06:09 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 259ms (Views: 222.5ms | ActiveRecord: 2.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-03-06 19:06:16 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TKcF34AdPAfaKieaczcfvNSPJj6OJ+qpAsbeV0Fr1jwAamCp8Rx2rZq4KHYSxGRAtG1VrjLF6yIYId9c/Bhkow=="}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 20ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:06:16 +0100
+Processing by AnimalsController#index as HTML
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:06:16 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 398ms (Views: 389.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:06:18 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 364ms (Views: 351.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-03-06 19:06:19 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (1.0ms)
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (82.0ms)
+Completed 200 OK in 388ms (Views: 381.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:06:20 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 363ms (Views: 350.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-03-06 19:06:20 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (1.0ms)
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (85.2ms)
+Completed 200 OK in 389ms (Views: 396.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:06:21 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (42.3ms)
+Completed 200 OK in 364ms (Views: 366.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-03-06 19:06:23 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (15.6ms)
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (78.1ms)
+Completed 200 OK in 377ms (Views: 376.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:06:23 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 346ms (Views: 353.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-03-06 19:06:25 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 384ms (Views: 383.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2019-03-06 19:06:50 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/users/login"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/login" for 127.0.0.1 at 2019-03-06 19:06:56 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/login" for 127.0.0.1 at 2019-03-06 19:08:54 +0100
+Processing by Devise::SessionsController#new as HTML
+[Devise] Could not find devise mapping for path "/login".
+This may happen for two reasons:
+
+1) You forgot to wrap your route inside the scope block. For example:
+
+  devise_scope :user do
+    get "/some/route" => "some_devise_controller"
+  end
+
+2) You are testing a Devise controller bypassing the router.
+   If so, you can explicitly tell Devise which mapping to use:
+
+   @request.env["devise.mapping"] = Devise.mappings[:user]
+
+
+Completed 404 Not Found in 1ms
+
+
+  
+AbstractController::ActionNotFound (Could not find devise mapping for path "/login".
+This may happen for two reasons:
+
+1) You forgot to wrap your route inside the scope block. For example:
+
+  devise_scope :user do
+    get "/some/route" => "some_devise_controller"
+  end
+
+2) You are testing a Devise controller bypassing the router.
+   If so, you can explicitly tell Devise which mapping to use:
+
+   @request.env["devise.mapping"] = Devise.mappings[:user]
+
+):
+  
+devise (4.6.1) app/controllers/devise_controller.rb:90:in `unknown_action!'
+devise (4.6.1) app/controllers/devise_controller.rb:65:in `assert_is_devise_resource!'
+devise (4.6.1) app/controllers/devise_controller.rb:103:in `require_no_authentication'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:178:in `block (2 levels) in halting_and_conditional'
+actionpack (5.1.6.1) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:179:in `block in halting_and_conditional'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.6.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.6.1) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.6.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.6.1) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.6.1) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.6.1) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.6.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.6.1) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.6.1) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.6.1) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.6.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6.1) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6.1) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/login" for 127.0.0.1 at 2019-03-06 19:09:43 +0100
+Processing by Devise::SessionsController#new as HTML
+[Devise] Could not find devise mapping for path "/login".
+This may happen for two reasons:
+
+1) You forgot to wrap your route inside the scope block. For example:
+
+  devise_scope :user do
+    get "/some/route" => "some_devise_controller"
+  end
+
+2) You are testing a Devise controller bypassing the router.
+   If so, you can explicitly tell Devise which mapping to use:
+
+   @request.env["devise.mapping"] = Devise.mappings[:user]
+
+
+Completed 404 Not Found in 1ms
+
+
+  
+AbstractController::ActionNotFound (Could not find devise mapping for path "/login".
+This may happen for two reasons:
+
+1) You forgot to wrap your route inside the scope block. For example:
+
+  devise_scope :user do
+    get "/some/route" => "some_devise_controller"
+  end
+
+2) You are testing a Devise controller bypassing the router.
+   If so, you can explicitly tell Devise which mapping to use:
+
+   @request.env["devise.mapping"] = Devise.mappings[:user]
+
+):
+  
+devise (4.6.1) app/controllers/devise_controller.rb:90:in `unknown_action!'
+devise (4.6.1) app/controllers/devise_controller.rb:65:in `assert_is_devise_resource!'
+devise (4.6.1) app/controllers/devise_controller.rb:103:in `require_no_authentication'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:178:in `block (2 levels) in halting_and_conditional'
+actionpack (5.1.6.1) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:179:in `block in halting_and_conditional'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.6.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.6.1) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.6.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.6.1) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.6.1) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.6.1) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.6.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.6.1) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.6.1) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.6.1) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.6.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6.1) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6.1) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:844:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/login" for 127.0.0.1 at 2019-03-06 19:11:14 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:11:17 +0100
+Processing by AnimalsController#index as HTML
+Completed 401 Unauthorized in 9ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:11:26 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 359ms (Views: 347.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:11:30 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 356ms (Views: 354.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-03-06 19:11:34 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QLCZY5Ar48uQQ8x5xsNi06o0Xe8ufHr1Fogt18LnvaaC616LVKM2koJ62WVhmiBKYZco7eSzCWoXx94FcCzXaQ==", "user"=>{"email"=>"imverysmart@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "imverysmart@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 483ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:11:35 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 300ms (Views: 249.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:12:33 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 361ms (Views: 324.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:16:05 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 266ms (Views: 230.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:16:22 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 258ms (Views: 222.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:16:44 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 253ms (Views: 217.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:16:59 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 252ms (Views: 216.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:18:40 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 265ms (Views: 222.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:18:48 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 255ms (Views: 219.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:20:55 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 268ms (Views: 229.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:20:56 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 249ms (Views: 211.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:20:57 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:20:57 +0100
+  Rendering animals/index.html.erb within layouts/application
+Processing by AnimalsController#index as HTML
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (48.0ms)
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 535ms (Views: 500.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 330ms (Views: 274.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 19:21:00 +0100
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/new.html.erb within layouts/application
+  Rendered animals/_form.html.erb (4.0ms)
+  Rendered animals/new.html.erb within layouts/application (39.1ms)
+Completed 200 OK in 284ms (Views: 256.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:21:01 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 255ms (Views: 215.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:23:14 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 272ms (Views: 229.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 19:23:16 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 236ms (Views: 213.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/zonas" for 127.0.0.1 at 2019-03-06 19:23:16 +0100
+Processing by ZonasController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/index.html.erb within layouts/application
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered zonas/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 264ms (Views: 217.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/zonas" for 127.0.0.1 at 2019-03-06 19:23:37 +0100
+Processing by ZonasController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/index.html.erb within layouts/application
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered zonas/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 295ms (Views: 222.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/zonas" for 127.0.0.1 at 2019-03-06 19:23:56 +0100
+Processing by ZonasController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/index.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered zonas/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 248ms (Views: 213.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zonas" for 127.0.0.1 at 2019-03-06 19:23:59 +0100
+Processing by ZonasController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/index.html.erb within layouts/application
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered zonas/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 247ms (Views: 211.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 19:23:59 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 258ms (Views: 211.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 19:24:12 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 252ms (Views: 217.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 19:24:13 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 258ms (Views: 227.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/zonas" for 127.0.0.1 at 2019-03-06 19:24:14 +0100
+Processing by ZonasController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/index.html.erb within layouts/application
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered zonas/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 268ms (Views: 220.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 19:24:15 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 235ms (Views: 206.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zonas" for 127.0.0.1 at 2019-03-06 19:24:16 +0100
+Processing by ZonasController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/index.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered zonas/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 240ms (Views: 205.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 19:24:17 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 224ms (Views: 204.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zonas" for 127.0.0.1 at 2019-03-06 19:24:18 +0100
+Processing by ZonasController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering zonas/index.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered zonas/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 251ms (Views: 208.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 19:24:19 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 238ms (Views: 206.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-06 19:24:21 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 242ms (Views: 203.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2019-03-06 19:24:32 +0100
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.0ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 349ms (Views: 345.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 19:24:41 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 252ms (Views: 213.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 19:24:42 +0100
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/new.html.erb within layouts/application
+  Rendered animals/_form.html.erb (5.0ms)
+  Rendered animals/new.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 294ms (Views: 259.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 19:29:18 +0100
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 1.0ms)
+
+
+  
+NameError (uninitialized constant AnimalsController::Zonas):
+  
+app/controllers/animals_controller.rb:17:in `new'
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 19:30:00 +0100
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/new.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered animals/_form.html.erb (22.0ms)
+  Rendered animals/new.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 357ms (Views: 273.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 19:31:49 +0100
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/new.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered animals/_form.html.erb (304.8ms)
+  Rendered animals/new.html.erb within layouts/application (338.8ms)
+Completed 500 Internal Server Error in 529ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x6eecbc0>:0x4393b60>):
+    36: 
+    37:   <div class="field">
+    38:     <%= form.label :user_id %>
+    39:     <%= form.text_field :user_id, id: :animal_user_id, value: user.id%>
+    40:   </div>
+    41: 
+    42:   <% if form.object.persisted? %>
+  
+app/views/animals/_form.html.erb:39:in `block in _app_views_animals__form_html_erb__518674865_35047332'
+app/views/animals/_form.html.erb:1:in `_app_views_animals__form_html_erb__518674865_35047332'
+app/views/animals/new.html.erb:3:in `_app_views_animals_new_html_erb___11248347_35481180'
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 19:33:04 +0100
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/new.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered animals/_form.html.erb (6.0ms)
+  Rendered animals/new.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 307ms (Views: 256.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 19:33:51 +0100
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/new.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered animals/_form.html.erb (15.0ms)
+  Rendered animals/new.html.erb within layouts/application (49.0ms)
+Completed 200 OK in 361ms (Views: 267.8ms | ActiveRecord: 7.0ms)
+
+
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 19:34:05 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kFIG8wcscn8JXRU4elyLgsxpEXJdGllwdGEyNMRKluL0Xf2XsAy4xQnK8KBKgwaybhSIytdZcj4HYTABMC/NjQ==", "animal"=>{"nom"=>"qweqewasd", "raza"=>"wdad", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "foto"=>#<ActionDispatch::Http::UploadedFile:0xab65fb8 @tempfile=#<Tempfile:C:/Users/Usuari1/AppData/Local/Temp/RackMultipart20190306-8636-1u18rr8.jpg>, @original_filename="Dy1avqgX0AEyY0b.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"animal[foto]\"; filename=\"Dy1avqgX0AEyY0b.jpg\"\r\nContent-Type: image/jpeg\r\n">, "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering animals/new.html.erb within layouts/application
+  Rendered animals/_form.html.erb (38.0ms)
+  Rendered animals/new.html.erb within layouts/application (72.0ms)
+Completed 500 Internal Server Error in 275ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `collect' for nil:NilClass):
+    24:   <% else %>
+    25:     <div class="field">
+    26:       <%= form.label :zona_id %>
+    27:       <%= form.select :zona_id, @zonas.collect { |zona| [zona.nom, zona.id]} %>
+    28:     </div>
+    29:   <% end %>
+    30: 
+  
+app/views/animals/_form.html.erb:27:in `block in _app_views_animals__form_html_erb__518674865_92427108'
+app/views/animals/_form.html.erb:1:in `_app_views_animals__form_html_erb__518674865_92427108'
+app/views/animals/new.html.erb:3:in `_app_views_animals_new_html_erb___11248347_91552452'
+app/controllers/animals_controller.rb:36:in `block (2 levels) in create'
+app/controllers/animals_controller.rb:31:in `create'
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 19:35:37 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kFIG8wcscn8JXRU4elyLgsxpEXJdGllwdGEyNMRKluL0Xf2XsAy4xQnK8KBKgwaybhSIytdZcj4HYTABMC/NjQ==", "animal"=>{"nom"=>"qweqewasd", "raza"=>"wdad", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "foto"=>#<ActionDispatch::Http::UploadedFile:0xbb8fe40 @tempfile=#<Tempfile:C:/Users/Usuari1/AppData/Local/Temp/RackMultipart20190306-8636-gc06rm.jpg>, @original_filename="Dy1avqgX0AEyY0b.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"animal[foto]\"; filename=\"Dy1avqgX0AEyY0b.jpg\"\r\nContent-Type: image/jpeg\r\n">, "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering animals/new.html.erb within layouts/application
+  Rendered animals/_form.html.erb (36.0ms)
+  Rendered animals/new.html.erb within layouts/application (70.0ms)
+Completed 500 Internal Server Error in 267ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `collect' for nil:NilClass):
+    24:   <% else %>
+    25:     <div class="field">
+    26:       <%= form.label :zona_id %>
+    27:       <%= form.select :zona_id, @zonas.collect { |zona| [zona.nom, zona.id]} %>
+    28:     </div>
+    29:   <% end %>
+    30: 
+  
+app/views/animals/_form.html.erb:27:in `block in _app_views_animals__form_html_erb__518674865_99714852'
+app/views/animals/_form.html.erb:1:in `_app_views_animals__form_html_erb__518674865_99714852'
+app/views/animals/new.html.erb:3:in `_app_views_animals_new_html_erb___11248347_99752604'
+app/controllers/animals_controller.rb:36:in `block (2 levels) in create'
+app/controllers/animals_controller.rb:31:in `create'
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 19:37:18 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kFIG8wcscn8JXRU4elyLgsxpEXJdGllwdGEyNMRKluL0Xf2XsAy4xQnK8KBKgwaybhSIytdZcj4HYTABMC/NjQ==", "animal"=>{"nom"=>"qweqewasd", "raza"=>"wdad", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "foto"=>#<ActionDispatch::Http::UploadedFile:0xa8d2e28 @tempfile=#<Tempfile:C:/Users/Usuari1/AppData/Local/Temp/RackMultipart20190306-8636-6akuzu.jpg>, @original_filename="Dy1avqgX0AEyY0b.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"animal[foto]\"; filename=\"Dy1avqgX0AEyY0b.jpg\"\r\nContent-Type: image/jpeg\r\n">, "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering animals/new.html.erb within layouts/application
+  Rendered animals/_form.html.erb (37.0ms)
+  Rendered animals/new.html.erb within layouts/application (71.0ms)
+Completed 500 Internal Server Error in 271ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `collect' for nil:NilClass):
+    24:   <% else %>
+    25:     <div class="field">
+    26:       <%= form.label :zona_id %>
+    27:       <%= form.select :zona_id, @zonas.collect { |zona| [zona.nom, zona.id]} %>
+    28:     </div>
+    29:   <% end %>
+    30: 
+  
+app/views/animals/_form.html.erb:27:in `block in _app_views_animals__form_html_erb__518674865_100743024'
+app/views/animals/_form.html.erb:1:in `_app_views_animals__form_html_erb__518674865_100743024'
+app/views/animals/new.html.erb:3:in `_app_views_animals_new_html_erb___11248347_85000728'
+app/controllers/animals_controller.rb:36:in `block (2 levels) in create'
+app/controllers/animals_controller.rb:31:in `create'
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 19:38:47 +0100
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/new.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered animals/_form.html.erb (6.0ms)
+  Rendered animals/new.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 291ms (Views: 255.6ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 19:40:02 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TPP4LqBCa6Lkw7kRBcA+EH3rCknz3pL03d85/7MjXmEo/ANKF2KhGORUXIk1H7Mg35aT8Xmdubqu3zvKR0YFDg==", "animal"=>{"nom"=>"qweqew", "raza"=>"wdad", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering animals/new.html.erb within layouts/application
+  Rendered animals/_form.html.erb (35.0ms)
+  Rendered animals/new.html.erb within layouts/application (68.0ms)
+Completed 500 Internal Server Error in 233ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `collect' for nil:NilClass):
+    24:   <% else %>
+    25:     <div class="field">
+    26:       <%= form.label :zona_id %>
+    27:       <%= form.select :zona_id, @zonas.collect { |zona| [zona.nom, zona.id]} %>
+    28:     </div>
+    29:   <% end %>
+    30: 
+  
+app/views/animals/_form.html.erb:27:in `block in _app_views_animals__form_html_erb__518674865_88082568'
+app/views/animals/_form.html.erb:1:in `_app_views_animals__form_html_erb__518674865_88082568'
+app/views/animals/new.html.erb:3:in `_app_views_animals_new_html_erb___11248347_88120716'
+app/controllers/animals_controller.rb:36:in `block (2 levels) in create'
+app/controllers/animals_controller.rb:31:in `create'
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 19:40:41 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TPP4LqBCa6Lkw7kRBcA+EH3rCknz3pL03d85/7MjXmEo/ANKF2KhGORUXIk1H7Mg35aT8Xmdubqu3zvKR0YFDg==", "animal"=>{"nom"=>"qweqew", "raza"=>"wdad", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 40ms (Views: 8.1ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 19:42:03 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TPP4LqBCa6Lkw7kRBcA+EH3rCknz3pL03d85/7MjXmEo/ANKF2KhGORUXIk1H7Mg35aT8Xmdubqu3zvKR0YFDg==", "animal"=>{"nom"=>"qweqew", "raza"=>"wdad", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 406 Not Acceptable in 76ms (Views: 1.0ms | ActiveRecord: 4.0ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/animals_controller.rb:31:in `create'
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 19:42:34 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TPP4LqBCa6Lkw7kRBcA+EH3rCknz3pL03d85/7MjXmEo/ANKF2KhGORUXIk1H7Mg35aT8Xmdubqu3zvKR0YFDg==", "animal"=>{"nom"=>"qweqew", "raza"=>"wdad", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 73ms (Views: 2.2ms | ActiveRecord: 4.0ms)
+
+
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 19:43:07 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TPP4LqBCa6Lkw7kRBcA+EH3rCknz3pL03d85/7MjXmEo/ANKF2KhGORUXIk1H7Mg35aT8Xmdubqu3zvKR0YFDg==", "animal"=>{"nom"=>"qweqew", "raza"=>"wdad", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering animals/new.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered animals/_form.html.erb (6.0ms)
+  Rendered animals/new.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 322ms (Views: 250.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2019-03-06 19:43:26 +0100
+Processing by AnimalsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/index.html.erb within layouts/application
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT "animals".* FROM "animals"[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/index.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 342ms (Views: 264.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/animals/new" for 127.0.0.1 at 2019-03-06 19:43:29 +0100
+Processing by AnimalsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering animals/new.html.erb within layouts/application
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT "zonas".* FROM "zonas"[0m
+  Rendered animals/_form.html.erb (6.0ms)
+  Rendered animals/new.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 295ms (Views: 257.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 19:43:34 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S30H0mwr1o64u8iR86DETC8YkW3F+brHSHc4KqMj19sjahnmjgA9i/PHNJwipq5HKHBcYOrqO77qbYdUGS6dFQ==", "animal"=>{"nom"=>"qweqew", "raza"=>"wdad", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "foto"=>#<ActionDispatch::Http::UploadedFile:0x6c3d620 @tempfile=#<Tempfile:C:/Users/Usuari1/AppData/Local/Temp/RackMultipart20190306-8636-1k3k7eu.jpg>, @original_filename="Dy1avqgX0AEyY0b.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"animal[foto]\"; filename=\"Dy1avqgX0AEyY0b.jpg\"\r\nContent-Type: image/jpeg\r\n">, "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `id=' for nil:NilClass):
+  
+app/controllers/animals_controller.rb:30:in `create'
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 19:44:18 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nj6d2lXbh/0D5+yLbVpoRPiIg7K477Du0SFJ3SAXs2ZSMWa+4vtNRwNwCRNdheV0WvUaCjKsm6CiIUvo1HLoCQ==", "animal"=>{"nom"=>"qweqew", "raza"=>"wdad", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mZona Load (0.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (4.0ms)[0m  [1m[32mINSERT INTO "animals" ("nom", "raza", "zona_id", "any_naixement", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "qweqew"], ["raza", "wdad"], ["zona_id", 1], ["any_naixement", "2019-03-06"], ["user_id", 1], ["created_at", "2019-03-06 18:44:19.063470"], ["updated_at", "2019-03-06 18:44:19.063470"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/animals/2
+Completed 302 Found in 82ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/animals/2" for 127.0.0.1 at 2019-03-06 19:44:19 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (1.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  Rendered animals/show.html.erb within layouts/application (34.0ms)
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (nil is not a valid asset source):
+    1: <p id="notice"><%= notice %></p>
+    2: <div>
+    3:   <%= image_tag( @animal.foto.url, width: 100, height: 100) %>
+    4: </div>
+    5: 
+    6: <p>
+  
+app/views/animals/show.html.erb:3:in `_app_views_animals_show_html_erb___416537309_101034756'
+Started POST "/animals" for 127.0.0.1 at 2019-03-06 19:46:03 +0100
+Processing by AnimalsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nj6d2lXbh/0D5+yLbVpoRPiIg7K477Du0SFJ3SAXs2ZSMWa+4vtNRwNwCRNdheV0WvUaCjKsm6CiIUvo1HLoCQ==", "animal"=>{"nom"=>"qweqew", "raza"=>"wdad", "zona_id"=>"1", "any_naixement(1i)"=>"2019", "any_naixement(2i)"=>"3", "any_naixement(3i)"=>"6", "foto"=>#<ActionDispatch::Http::UploadedFile:0xbe82490 @tempfile=#<Tempfile:C:/Users/Usuari1/AppData/Local/Temp/RackMultipart20190306-8636-10sjrve.jpg>, @original_filename="Dy1avqgX0AEyY0b.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"animal[foto]\"; filename=\"Dy1avqgX0AEyY0b.jpg\"\r\nContent-Type: image/jpeg\r\n">, "foto_cache"=>""}, "commit"=>"Create Animal"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :foto_cache
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "animals" ("nom", "foto", "raza", "zona_id", "any_naixement", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nom", "qweqew"], ["foto", "Dy1avqgX0AEyY0b.jpg"], ["raza", "wdad"], ["zona_id", 1], ["any_naixement", "2019-03-06"], ["user_id", 1], ["created_at", "2019-03-06 18:46:03.106984"], ["updated_at", "2019-03-06 18:46:03.106984"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/animals/3
+Completed 302 Found in 62ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/animals/3" for 127.0.0.1 at 2019-03-06 19:46:03 +0100
+Processing by AnimalsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnimal Load (0.0ms)[0m  [1m[34mSELECT  "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering animals/show.html.erb within layouts/application
+  [1m[36mZona Load (1.0ms)[0m  [1m[34mSELECT  "zonas".* FROM "zonas" WHERE "zonas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered animals/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 259ms (Views: 219.7ms | ActiveRecord: 3.0ms)
+
+
