@@ -1,77 +1,44 @@
 class AnimalsController < ApplicationController
-  before_action :set_animal, only: [:show, :edit, :update, :destroy]
-
-  # GET /animals
-  # GET /animals.json
   def index
-    @animals = Animal.all
-  end
+   @animals = Animal.all
+ end
 
-  # GET /animals/1
-  # GET /animals/1.json
-  def show
-  end
+ def show
+   @animal = Animal.find(params[:id])
+ end
 
-  # GET /animals/new
-  def new
-    @zonas = Zona.all
-    @animal = Animal.new
+ def new
+   @animal = Animal.new
+ end
 
-  end
+ def create
+   @animals = Animal.all
+   @animal = Animal.create(animal_params)
+ end
 
-  # GET /animals/1/edit
-  def edit
-  end
+ def edit
+   @animal = Animal.find(params[:id])
+ end
 
-  # POST /animals
-  # POST /animals.json
-  def create
-    @animal = Animal.new(animal_params)
-    @animal.user = current_user
-    respond_to do |format|
-      if @animal.save
-        format.html { redirect_to @animal, notice: 'Animal was successfully created.' }
-        format.json { render :show, status: :created, location: @animal }
-      else
-        @zonas = Zona.all
-        format.html { render :new }
-        format.json { render json: @animal.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+ def update
+   @animals = Animal.all
+   @animal = Animal.find(params[:id])
 
-  # PATCH/PUT /animals/1
-  # PATCH/PUT /animals/1.json
-  def update
-    respond_to do |format|
-      if @animal.update(animal_params)
-        format.html { redirect_to @animal, notice: 'Animal was successfully updated.' }
-        format.json { render :show, status: :ok, location: @animal }
-      else
-        format.html { render :edit }
-        format.json { render json: @animal.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+   @animal.update_attributes(animal_params)
+ end
 
-  # DELETE /animals/1
-  # DELETE /animals/1.json
-  def destroy
-    @animal.destroy
-    respond_to do |format|
-      format.html { redirect_to animals_url, notice: 'Animal was successfully destroyed.' }
-      format.json { head :no_content }
-    end
-  end
+ def delete
+   @animal = Animal.find(params[:animal_id])
+ end
 
-  private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_animal
-      @animal = Animal.find(params[:id])
-    end
+ def destroy
+   @animals = Animal.all
+   @animal = Animal.find(params[:id])
+   @animal.destroy
+ end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def animal_params
-      params.require(:animal).permit(:nom, :foto, :raza, :zona_id, :any_naixement)
-    end
+private
+ def animal_params
+   params.require(:animal).permit(:nom, :raza, :zona, :any_naixement, :user)
+ end
 end
