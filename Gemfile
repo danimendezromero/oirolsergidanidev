@@ -51,3 +51,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'carrierwave'
 gem 'file_validators'
+gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'jquery-rails'
