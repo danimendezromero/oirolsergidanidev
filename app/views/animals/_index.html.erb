@@ -11,8 +11,14 @@
     <td><%= animal.raza %></td>
     <td><%= animal.zona.nom %></td>
     <td><%= animal.any_naixement %></td>
-    <td>user</td>
+    <td>
+      <% if animal.user.nil? %>
+        Sin cuidador
+      <% else %>
+        <%= animal.user.email %>
+      <% end %>
+    </td>
     <td><%= link_to "Edit", edit_animal_path(animal), remote: true, class: "btn btn-default" %></td>
-    <td><%= link_to "Delete", animal_path(animal), remote: true, class: "btn btn-danger" %></td>
+    <td><%= link_to "Delete", animal_delete_path(animal), remote: true, class: "btn btn-danger" %></td>
   </tr>
 <% end %>

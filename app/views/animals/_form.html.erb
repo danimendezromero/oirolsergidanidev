@@ -12,15 +12,34 @@
           <%= f.label :raza, class: "control-label" %>
           <%= f.text_field :raza, class: "form-control" %>
         </div>
+        <% if f.object.persisted? %>
         <div class="form-group">
           <%= f.label :zona, class: "control-label" %>
-          <%= f.text_field :zona, class: "form-control" %>
+          <%= f.select :zona_id, @zonas.collect { |zona| [zona.nom, zona.id]},{} , :class => 'form-control' %>
         </div>
+        <% else %>
+        <div class="form-group">
+          <%= f.label :zona, class: "control-label" %>
+          <%= f.select :zona_id, @zonas.collect { |zona| [zona.nom, zona.id]},{} , :class => 'form-control' %>
+        </div>
+        <% end %>
         <div class="form-group">
           <%= f.label :any_naixement, class: "control-label" %>
-          <%= f.text_field :any_naixement, class: "form-control" %>
+          <%= f.date_field :any_naixement, class: "form-control" %>
         </div>
+        <% if f.object.persisted? %>
+        <div class="form-group">
+          <%= f.label :user, class: "control-label" %>
+          <%= f.select :user_id, @users.collect { |user| [user.email, user.id]},{} , :class => 'form-control' %>
+        </div>
+        <% else %>
+        <div class="form-group">
+          <%= f.label :user, class: "control-label" %>
+          <%= f.select :user_id, @users.collect { |user| [user.email, user.id]},{} , :class => 'form-control' %>
+        </div>
+        <% end %>
       </div>
+
       <div class="modal-footer">
         <%= f.submit class: "btn btn-primary" %>
         <%= link_to "Cancel", "#", class: "btn", data: {dismiss: "modal"} %>

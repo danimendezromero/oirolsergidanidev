@@ -8,6 +8,8 @@ class AnimalsController < ApplicationController
  end
 
  def new
+   @zonas = Zona.all
+   @users = User.all
    @animal = Animal.new
  end
 
@@ -17,6 +19,8 @@ class AnimalsController < ApplicationController
  end
 
  def edit
+   @zonas = Zona.all
+   @users = User.all
    @animal = Animal.find(params[:id])
  end
 
@@ -39,6 +43,6 @@ class AnimalsController < ApplicationController
 
 private
  def animal_params
-   params.require(:animal).permit(:nom, :raza, :zona, :any_naixement, :user)
+   params.require(:animal).permit(:nom, :raza, :zona_id, :any_naixement, :user_id)
  end
 end
