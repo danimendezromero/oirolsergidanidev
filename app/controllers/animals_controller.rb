@@ -1,6 +1,13 @@
 class AnimalsController < ApplicationController
   def index
-   @animals = Animal.all
+    @buscar = params[:buscar]
+    if @buscar==""
+      @animals = Animal.all
+    elsif @buscar
+      @animals = Animal.where("nom LIKE ?", "%#{@buscar}%")
+    else
+      @animals = Animal.all
+    end#if end
  end
 
  def show

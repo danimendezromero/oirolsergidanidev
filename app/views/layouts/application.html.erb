@@ -9,7 +9,7 @@
   </head>
 
   <body>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -40,9 +40,9 @@
           </li>
         <% end %>
       </ul>
-      <form class="navbar-form navbar-right">
+      <form class="navbar-form navbar-right" action="/animals">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+          <input type="text" class="form-control" placeholder="Search" name="buscar" <%= @buscar %>>
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>

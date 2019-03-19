@@ -3,7 +3,10 @@
     <%= link_to "New animal", new_animal_path, remote: true, class: "btn btn-primary" %>
   </div>
   <div class="new-animal"></div>
-
+  <form style="margin-bottom:10px;">
+  <input placeholder="Buscar" id="busar" type="text" class="" name="buscar" <%= @buscar %>>
+  <input type="submit" value="buscar" />
+  </form>
   <table class="table table-bordered table-striped">
     <thead>
       <tr>
