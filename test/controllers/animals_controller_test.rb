@@ -6,21 +6,18 @@ class AnimalsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index" do
-    get animals_url
+    get animals_url, xhr: true
     assert_response :success
   end
 
   test "should get new" do
-    get new_animal_url
+    get new_animal_url, xhr: true
     assert_response :success
   end
 
-  test "should create animal" do
-    assert_difference('Animal.count') do
-      post animals_url, params: { animal: { any_naixement: @animal.any_naixement, foto: @animal.foto, nom: @animal.nom, raza: @animal.raza, user_id: @animal.user_id, zona_id: @animal.zona_id } }
-    end
-
-    assert_redirected_to animal_url(Animal.last)
+  test "should get edit" do
+    get edit_animal_url(@animal), xhr: true
+    assert_response :success
   end
 
   test "should show animal" do
@@ -28,21 +25,9 @@ class AnimalsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get edit" do
-    get edit_animal_url(@animal)
-    assert_response :success
-  end
-
-  test "should update animal" do
-    patch animal_url(@animal), params: { animal: { any_naixement: @animal.any_naixement, foto: @animal.foto, nom: @animal.nom, raza: @animal.raza, user_id: @animal.user_id, zona_id: @animal.zona_id } }
-    assert_redirected_to animal_url(@animal)
-  end
-
   test "should destroy animal" do
     assert_difference('Animal.count', -1) do
-      delete animal_url(@animal)
+      delete animal_url(@animal), xhr: true
     end
-
-    assert_redirected_to animals_url
   end
 end

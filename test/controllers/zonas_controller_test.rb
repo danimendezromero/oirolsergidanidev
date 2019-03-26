@@ -6,43 +6,29 @@ class ZonasControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index" do
-    get zonas_url
+    get zonas_url, xhr: true
     assert_response :success
   end
 
   test "should get new" do
-    get new_zona_url
-    assert_response :success
-  end
-
-  test "should create zona" do
-    assert_difference('Zona.count') do
-      post zonas_url, params: { zona: { clima: @zona.clima, humitat: @zona.humitat, nom: @zona.nom, temperatura: @zona.temperatura } }
-    end
-
-    assert_redirected_to zona_url(Zona.last)
-  end
-
-  test "should show zona" do
-    get zona_url(@zona)
+    get new_zona_url, xhr: true
     assert_response :success
   end
 
   test "should get edit" do
-    get edit_zona_url(@zona)
+    get edit_zona_url(@zona), xhr: true
     assert_response :success
   end
 
-  test "should update zona" do
-    patch zona_url(@zona), params: { zona: { clima: @zona.clima, humitat: @zona.humitat, nom: @zona.nom, temperatura: @zona.temperatura } }
-    assert_redirected_to zona_url(@zona)
+  test "should show zona" do
+    get zona_url(@zona), xhr: true
+    assert_response :success
   end
 
   test "should destroy zona" do
     assert_difference('Zona.count', -1) do
-      delete zona_url(@zona)
+      delete zona_url(@zona), xhr: true
     end
-
-    assert_redirected_to zonas_url
   end
+
 end
